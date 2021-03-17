@@ -287,6 +287,7 @@ function onWindowResize() {
 }
 
 function zoomCamera(){
-  reset = true  
+  reset = true
+  showSpinner(true)
   compute()
 }
